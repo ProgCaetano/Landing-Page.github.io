@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap');
+
+
+body{
+    background-color: rgba(34, 34, 34, 0.945);
+    color: white;
+    font-family: poppins;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#title{
+    flex-direction: column;
+    line-height: 10px;
+}
+
+
+h1{
+    font-weight: 200;
+}
+
+a{
+    color: white;
+    
+}
+
+a:hover{
+    font-size: larger;
+    color: rgb(132, 14, 201);
+    transition: 0.3s all;
+    
+}
+
+#inscrevabottom{
+    border: 2px solid rgb(132, 14, 201);
+    padding: 10px;
+    border-radius: 20px;
+}
+
+#inscrevabottom:hover{
+    background-color: rgb(132, 14, 201);
+    color: white;
+}
+
+li{
+    display: inline-block;
+    margin: 20px   ;
+}
+
+
+main{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px ;
+}
+
+h2{
+    font-size: 56px ;
+    line-height: 10px;
+    
+    
+}
+
+.roxo{
+    color: rgb(132, 14, 201);;
+    font-weight: 1000;
+}
+
+p{
+    line-height: 20px;
+    max-width: 500px;
+    font-size: small;
+}
+
+img{
+        border-radius: 50%;
+        width: 580px;
+       
+}
+
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+form [type="submit"]{
+    height: 50px;
+    width: 50%;
+    background-color: aqua;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+form [type="submit"]:hover{
+    cursor: pointer;
+}
+
+input{
+    margin-top: 20px;
+    height: 20px ;
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+}
+
+ 
+
