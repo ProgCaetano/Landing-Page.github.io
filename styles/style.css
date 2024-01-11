@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap');
 
 
+
 body{
     background-color: rgba(34, 34, 34, 0.945);
     color: white;
@@ -16,6 +17,8 @@ header{
     justify-content: space-between;
     align-items: center;
 }
+
+
 
 #title{
     flex-direction: column;
@@ -80,10 +83,14 @@ p{
     font-size: small;
 }
 
-img{
+img.personagem{
         border-radius: 50%;
         width: 580px;
        
+}
+
+.mobile-menu-icon{
+    display: none;
 }
 
 
